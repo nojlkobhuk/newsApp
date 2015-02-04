@@ -19,7 +19,12 @@
 {
     [super viewDidLoad];
     
-    self.title = detailList.title;
+    self.title = detailList.category;
+    
+    NSURL* url = [NSURL URLWithString:detailList.link];
+    NSURLRequest *reply = [[NSURLRequest alloc]initWithURL:url];
+    NSLog(@"body %@", reply);
+    [webdescription loadHTMLString:detailList.description baseURL:url];
     
     gdescription.text = detailList.description;
     

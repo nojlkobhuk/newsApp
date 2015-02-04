@@ -10,10 +10,11 @@
 #import "NODParseList.h"
 
 @interface NODRSSDetailViewController : UIViewController {
-    IBOutlet UILabel *gdescription;
+    IBOutlet UIWebView *webdescription;
     IBOutlet UILabel *gcategory;
     IBOutlet UILabel *glink;
     IBOutlet UILabel *gpubDate;
+    IBOutlet UILabel *gdescription;
 }
 @property (nonatomic, strong) NODParseList *detailList;
 

@@ -144,8 +144,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1o-BC-h9j">
-                                <rect key="frame" x="20" y="78" width="280" height="349"/>
+                            <webView appearanceType="aqua" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4p6-01-XRz">
+                                <rect key="frame" x="20" y="119" width="280" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhS-82-1GU">
+                                <rect key="frame" x="20" y="90" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -157,9 +162,10 @@
                     <navigationItem key="navigationItem" id="eKT-Wf-sEl"/>
                     <connections>
                         <outlet property="gcategory" destination="3g4-RO-gkb" id="svR-Xy-oct"/>
-                        <outlet property="gdescription" destination="U1o-BC-h9j" id="UIE-Yr-ZQY"/>
+                        <outlet property="gdescription" destination="UhS-82-1GU" id="F15-36-AXT"/>
                         <outlet property="glink" destination="24A-jq-Oa9" id="1Sq-ch-keI"/>
                         <outlet property="gpubDate" destination="YJv-iW-Hvp" id="rng-FU-4dT"/>
+                        <outlet property="webdescription" destination="4p6-01-XRz" id="sVo-sA-cmt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLu-iD-Lht" userLabel="First Responder" sceneMemberID="firstResponder"/>
