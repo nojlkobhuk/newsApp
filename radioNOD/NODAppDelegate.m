@@ -7,11 +7,32 @@
 //
 
 #import "NODAppDelegate.h"
+#import "NODParser.h"
+#import "NODViewController.h"
 
 @implementation NODAppDelegate
-
+@synthesize listArray;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    NSURL *url = [[NSURL alloc] initWithString:@"http://rusnod.ru/rss/rss.xml"];
+    NSData *data = [[NSData alloc] initWithContentsOfURL:url];
+    
+    NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:data];
+    
+    NODParser *theNODParser = [[NODParser alloc] initParser];
+    
+    [xmlParser setDelegate:theNODParser];
+    
+    BOOL worked = [xmlParser parse];
+    
+    if(worked) {
+        NSLog(@"Amount, %i", [listArray count]);
+    }
+    else {
+        NSLog(@"boo");
+    }
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -11,5 +11,6 @@
 @interface NODAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSMutableArray *listArray;
 
 @end
