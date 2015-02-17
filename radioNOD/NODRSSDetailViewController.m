@@ -7,13 +7,14 @@
 //
 
 #import "NODRSSDetailViewController.h"
+#import "NODObjectManager.h"
 
 @interface NODRSSDetailViewController ()
 
 @end
 
 @implementation NODRSSDetailViewController
-@synthesize detailList;
+@synthesize detailList, newsList;
 
 - (void)viewDidLoad
 {
@@ -33,6 +34,8 @@
     glink.text = detailList.link;
     
     gpubDate.text = detailList.pubDate;
+    
+    [NODObjectManager jsonParseNews:newsList inManagedObjectContext:[[NODObjectManager manager] managedObjectContext]];
     
     // Do any additional setup after loading the view.
 }

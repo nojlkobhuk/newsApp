@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58D99D23D27243BFD1753009 /* libPods-radioNODTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED39ACFD884031CD048DDA7 /* libPods-radioNODTests.a */; };
+		633D5C75A7059E4458472509 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF3AD6BD9EE02D7C62BAB89 /* libPods.a */; };
+		73453F55B1E6E2B94338CA83 /* libPods-radioNOD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CA0D7E14AA3F2FBD37457B /* libPods-radioNOD.a */; };
+		964A073A1A8BE83000E67CE8 /* AllAroundPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A07391A8BE83000E67CE8 /* AllAroundPullView.m */; };
+		964A073D1A8BEB0F00E67CE8 /* GDCellThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A073C1A8BEB0F00E67CE8 /* GDCellThumbnailView.m */; };
+		964A07431A8BF47A00E67CE8 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A07421A8BF47A00E67CE8 /* UIImage+Resize.m */; };
+		9654A58F1A91508B00977A22 /* NODDetailScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654A58E1A91508B00977A22 /* NODDetailScrollViewController.m */; };
+		9654A5951A923D3900977A22 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654A5941A923D3900977A22 /* News.m */; };
+		966C09181A8982E70091699F /* Pods-radioNOD.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 966C09171A8982E70091699F /* Pods-radioNOD.debug.xcconfig */; };
+		966C091A1A8982F30091699F /* Pods-radioNOD.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 966C09191A8982F30091699F /* Pods-radioNOD.release.xcconfig */; };
 		CE3390661A3916800099C479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3390651A3916800099C479 /* Foundation.framework */; };
 		CE3390681A3916800099C479 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3390671A3916800099C479 /* CoreGraphics.framework */; };
 		CE33906A1A3916800099C479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3390691A3916800099C479 /* UIKit.framework */; };
@@ -43,6 +53,10 @@
 		CE49E9501A82E29F009ACFF3 /* K7ej-Rh65jc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE49E9491A82E29F009ACFF3 /* K7ej-Rh65jc.jpg */; };
 		CE49E9511A82E29F009ACFF3 /* lL0PsUvQEHA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE49E94A1A82E29F009ACFF3 /* lL0PsUvQEHA.jpg */; };
 		CE49E9521A82E29F009ACFF3 /* Se027iLFq4s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE49E94B1A82E29F009ACFF3 /* Se027iLFq4s.jpg */; };
+		CE49E9551A836D7B009ACFF3 /* newsdata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE49E9531A836D7B009ACFF3 /* newsdata.xcdatamodeld */; };
+		CE49E9581A838130009ACFF3 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE49E9571A838130009ACFF3 /* Settings.m */; };
+		CE49E95B1A838130009ACFF3 /* Meetings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE49E95A1A838130009ACFF3 /* Meetings.m */; };
+		CE49E9611A83A084009ACFF3 /* NODObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE49E9601A83A084009ACFF3 /* NODObjectManager.m */; };
 		CE5BED611A3F462400C58BC1 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5BED591A3F462400C58BC1 /* forward.png */; };
 		CE5BED621A3F462400C58BC1 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5BED5A1A3F462400C58BC1 /* pause.png */; };
 		CE5BED631A3F462400C58BC1 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5BED5B1A3F462400C58BC1 /* play.png */; };
@@ -64,6 +78,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04324A23E83D3730032EB296 /* Pods-radioNODTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radioNODTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-radioNODTests/Pods-radioNODTests.release.xcconfig"; sourceTree = "<group>"; };
+		2606640721AA57D6C9C62A9D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED39ACFD884031CD048DDA7 /* libPods-radioNODTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-radioNODTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964A07381A8BE83000E67CE8 /* AllAroundPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAroundPullView.h; sourceTree = "<group>"; };
+		964A07391A8BE83000E67CE8 /* AllAroundPullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAroundPullView.m; sourceTree = "<group>"; };
+		964A073B1A8BEB0F00E67CE8 /* GDCellThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCellThumbnailView.h; sourceTree = "<group>"; };
+		964A073C1A8BEB0F00E67CE8 /* GDCellThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCellThumbnailView.m; sourceTree = "<group>"; };
+		964A07411A8BF47A00E67CE8 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		964A07421A8BF47A00E67CE8 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		9654A58D1A91508B00977A22 /* NODDetailScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NODDetailScrollViewController.h; sourceTree = "<group>"; };
+		9654A58E1A91508B00977A22 /* NODDetailScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NODDetailScrollViewController.m; sourceTree = "<group>"; };
+		9654A5931A923D3900977A22 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		9654A5941A923D3900977A22 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		966C09171A8982E70091699F /* Pods-radioNOD.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-radioNOD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-radioNOD/Pods-radioNOD.debug.xcconfig"; sourceTree = "<group>"; };
+		966C09191A8982F30091699F /* Pods-radioNOD.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-radioNOD.release.xcconfig"; path = "Pods/Target Support Files/Pods-radioNOD/Pods-radioNOD.release.xcconfig"; sourceTree = "<group>"; };
+		ADF3AD6BD9EE02D7C62BAB89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E5DB257D4ECD92EC137435 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C6CA0D7E14AA3F2FBD37457B /* libPods-radioNOD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-radioNOD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8E3F45DE682C7F3ADEE813 /* Pods-radioNODTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radioNODTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-radioNODTests/Pods-radioNODTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE3390621A3916800099C479 /* radioNOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radioNOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3390651A3916800099C479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE3390671A3916800099C479 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +145,13 @@
 		CE49E9491A82E29F009ACFF3 /* K7ej-Rh65jc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K7ej-Rh65jc.jpg"; sourceTree = "<group>"; };
 		CE49E94A1A82E29F009ACFF3 /* lL0PsUvQEHA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lL0PsUvQEHA.jpg; sourceTree = "<group>"; };
 		CE49E94B1A82E29F009ACFF3 /* Se027iLFq4s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Se027iLFq4s.jpg; sourceTree = "<group>"; };
+		CE49E9541A836D7B009ACFF3 /* newsdata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = newsdata.xcdatamodel; sourceTree = "<group>"; };
+		CE49E9561A838130009ACFF3 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = radioNOD/Settings.h; sourceTree = "<group>"; };
+		CE49E9571A838130009ACFF3 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = radioNOD/Settings.m; sourceTree = "<group>"; };
+		CE49E9591A838130009ACFF3 /* Meetings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Meetings.h; path = radioNOD/Meetings.h; sourceTree = "<group>"; };
+		CE49E95A1A838130009ACFF3 /* Meetings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Meetings.m; path = radioNOD/Meetings.m; sourceTree = "<group>"; };
+		CE49E95F1A83A084009ACFF3 /* NODObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NODObjectManager.h; sourceTree = "<group>"; };
+		CE49E9601A83A084009ACFF3 /* NODObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NODObjectManager.m; sourceTree = "<group>"; };
 		CE5BED591A3F462400C58BC1 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 		CE5BED5A1A3F462400C58BC1 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		CE5BED5B1A3F462400C58BC1 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
@@ -131,6 +171,8 @@
 				CE3390681A3916800099C479 /* CoreGraphics.framework in Frameworks */,
 				CE33906A1A3916800099C479 /* UIKit.framework in Frameworks */,
 				CE3390661A3916800099C479 /* Foundation.framework in Frameworks */,
+				633D5C75A7059E4458472509 /* libPods.a in Frameworks */,
+				73453F55B1E6E2B94338CA83 /* libPods-radioNOD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +183,42 @@
 				CE3390851A3916800099C479 /* XCTest.framework in Frameworks */,
 				CE3390871A3916800099C479 /* UIKit.framework in Frameworks */,
 				CE3390861A3916800099C479 /* Foundation.framework in Frameworks */,
+				58D99D23D27243BFD1753009 /* libPods-radioNODTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398AAF98789DD54C5FCD85E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2606640721AA57D6C9C62A9D /* Pods.debug.xcconfig */,
+				B8E5DB257D4ECD92EC137435 /* Pods.release.xcconfig */,
+				CB8E3F45DE682C7F3ADEE813 /* Pods-radioNODTests.debug.xcconfig */,
+				966C09191A8982F30091699F /* Pods-radioNOD.release.xcconfig */,
+				04324A23E83D3730032EB296 /* Pods-radioNODTests.release.xcconfig */,
+				966C09171A8982E70091699F /* Pods-radioNOD.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE3390591A3916800099C479 = {
 			isa = PBXGroup;
 			children = (
 				CE49E93C1A82BCF8009ACFF3 /* Main.storyboard */,
+				CE49E9531A836D7B009ACFF3 /* newsdata.xcdatamodeld */,
+				9654A5931A923D3900977A22 /* News.h */,
+				9654A5941A923D3900977A22 /* News.m */,
+				CE49E9591A838130009ACFF3 /* Meetings.h */,
+				CE49E95A1A838130009ACFF3 /* Meetings.m */,
+				CE49E9561A838130009ACFF3 /* Settings.h */,
+				CE49E9571A838130009ACFF3 /* Settings.m */,
 				CE33906B1A3916800099C479 /* radioNOD */,
 				CE33908A1A3916800099C479 /* radioNODTests */,
 				CE3390641A3916800099C479 /* Frameworks */,
 				CE3390631A3916800099C479 /* Products */,
+				398AAF98789DD54C5FCD85E8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +239,9 @@
 				CE3390671A3916800099C479 /* CoreGraphics.framework */,
 				CE3390691A3916800099C479 /* UIKit.framework */,
 				CE3390841A3916800099C479 /* XCTest.framework */,
+				ADF3AD6BD9EE02D7C62BAB89 /* libPods.a */,
+				C6CA0D7E14AA3F2FBD37457B /* libPods-radioNOD.a */,
+				3ED39ACFD884031CD048DDA7 /* libPods-radioNODTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,12 +253,22 @@
 				CE3390751A3916800099C479 /* NODAppDelegate.m */,
 				CE47C61D1A7187740046CBE7 /* NODScrollViewController.h */,
 				CE47C61E1A7187740046CBE7 /* NODScrollViewController.m */,
+				9654A58D1A91508B00977A22 /* NODDetailScrollViewController.h */,
+				9654A58E1A91508B00977A22 /* NODDetailScrollViewController.m */,
+				964A073B1A8BEB0F00E67CE8 /* GDCellThumbnailView.h */,
+				964A073C1A8BEB0F00E67CE8 /* GDCellThumbnailView.m */,
+				964A07411A8BF47A00E67CE8 /* UIImage+Resize.h */,
+				964A07421A8BF47A00E67CE8 /* UIImage+Resize.m */,
+				964A07381A8BE83000E67CE8 /* AllAroundPullView.h */,
+				964A07391A8BE83000E67CE8 /* AllAroundPullView.m */,
 				CE47C2F61A666DBF0046CBE7 /* NODRSSDetailViewController.h */,
 				CE47C2F71A666DBF0046CBE7 /* NODRSSDetailViewController.m */,
 				CE47C2E71A65753A0046CBE7 /* NODParser.h */,
 				CE47C2E81A65753A0046CBE7 /* NODParser.m */,
 				CE47C61A1A686EC70046CBE7 /* NODJSONParser.h */,
 				CE47C61B1A686EC70046CBE7 /* NODJSONParser.m */,
+				CE49E95F1A83A084009ACFF3 /* NODObjectManager.h */,
+				CE49E9601A83A084009ACFF3 /* NODObjectManager.m */,
 				CE47C2EA1A6576350046CBE7 /* NODParseList.h */,
 				CE47C2EB1A6576350046CBE7 /* NODParseList.m */,
 				CE47C2F31A659FB40046CBE7 /* NODRSSViewController.h */,
@@ -272,9 +349,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3390941A3916800099C479 /* Build configuration list for PBXNativeTarget "radioNOD" */;
 			buildPhases = (
+				34316A423C0D2F4D10360FA5 /* Check Pods Manifest.lock */,
 				CE33905E1A3916800099C479 /* Sources */,
 				CE33905F1A3916800099C479 /* Frameworks */,
 				CE3390601A3916800099C479 /* Resources */,
+				CB18E2765B78A76C0ECBE91A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,9 +368,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3390971A3916800099C479 /* Build configuration list for PBXNativeTarget "radioNODTests" */;
 			buildPhases = (
+				0241F9D50FC65E53FCFCAB5C /* Check Pods Manifest.lock */,
 				CE33907F1A3916800099C479 /* Sources */,
 				CE3390801A3916800099C479 /* Frameworks */,
 				CE3390811A3916800099C479 /* Resources */,
+				7CCF8B89587075BD03E40472 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -366,7 +447,9 @@
 				CE49E9521A82E29F009ACFF3 /* Se027iLFq4s.jpg in Resources */,
 				CE5BED631A3F462400C58BC1 /* play.png in Resources */,
 				CE48B7C41A42D32C00A2DD30 /* home_btn_main_show.png in Resources */,
+				966C091A1A8982F30091699F /* Pods-radioNOD.release.xcconfig in Resources */,
 				CE48B7C11A42D32C00A2DD30 /* home_btn_about.png in Resources */,
+				966C09181A8982E70091699F /* Pods-radioNOD.debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,21 +463,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0241F9D50FC65E53FCFCAB5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34316A423C0D2F4D10360FA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CCF8B89587075BD03E40472 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-radioNODTests/Pods-radioNODTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB18E2765B78A76C0ECBE91A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-radioNOD/Pods-radioNOD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE33905E1A3916800099C479 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9654A58F1A91508B00977A22 /* NODDetailScrollViewController.m in Sources */,
+				964A073D1A8BEB0F00E67CE8 /* GDCellThumbnailView.m in Sources */,
 				CE48B7C71A43A50100A2DD30 /* NODNewsController.m in Sources */,
 				CE47C2F51A659FB40046CBE7 /* NODRSSViewController.m in Sources */,
+				CE49E9581A838130009ACFF3 /* Settings.m in Sources */,
 				CE47C2F81A666DBF0046CBE7 /* NODRSSDetailViewController.m in Sources */,
+				964A07431A8BF47A00E67CE8 /* UIImage+Resize.m in Sources */,
+				CE49E9551A836D7B009ACFF3 /* newsdata.xcdatamodeld in Sources */,
 				CE47C61C1A686EC70046CBE7 /* NODJSONParser.m in Sources */,
 				CE3390761A3916800099C479 /* NODAppDelegate.m in Sources */,
+				964A073A1A8BE83000E67CE8 /* AllAroundPullView.m in Sources */,
 				CE33907C1A3916800099C479 /* NODViewController.m in Sources */,
+				9654A5951A923D3900977A22 /* News.m in Sources */,
+				CE49E95B1A838130009ACFF3 /* Meetings.m in Sources */,
 				CE47C2EC1A6576350046CBE7 /* NODParseList.m in Sources */,
 				CE47C61F1A7187750046CBE7 /* NODScrollViewController.m in Sources */,
 				CE47C2E91A65753A0046CBE7 /* NODParser.m in Sources */,
 				CE3390721A3916800099C479 /* main.m in Sources */,
+				CE49E9611A83A084009ACFF3 /* NODObjectManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -508,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -516,6 +671,7 @@
 		};
 		CE3390951A3916800099C479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966C09171A8982E70091699F /* Pods-radioNOD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -530,6 +686,7 @@
 		};
 		CE3390961A3916800099C479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966C09191A8982F30091699F /* Pods-radioNOD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -613,6 +770,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE49E9531A836D7B009ACFF3 /* newsdata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE49E9541A836D7B009ACFF3 /* newsdata.xcdatamodel */,
+			);
+			currentVersion = CE49E9541A836D7B009ACFF3 /* newsdata.xcdatamodel */;
+			path = newsdata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE33905A1A3916800099C479 /* Project object */;
 }

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Settings.h"
 
 @interface NODJSONParser : NSObject
 + (NSMutableArray *) jsonParser;

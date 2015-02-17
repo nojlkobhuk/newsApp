@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NODScrollViewController : UIViewController
+@interface NODScrollViewController : UITableViewController
 @property (nonatomic, strong) UIImageView * imageView;
 @property (nonatomic, strong) NSURL * imageURL;
+
+- (void)animateActivityIndicator:(BOOL)animate;
+
 @end

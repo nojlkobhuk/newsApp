@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Meetings" representedClassName="Meetings" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organizator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unique" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="myregion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Settings" inverseName="mymeeting" inverseEntity="Settings" syncable="YES"/>
+    </entity>
+    <entity name="News" representedClassName="News" syncable="YES">
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ncategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ncity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ncountry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nlink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="npream" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="npubDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nreadFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nregion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ntitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nvideo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nvideopicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="thumbnailURLString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unique" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="myregion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Settings" inverseName="mynews" inverseEntity="Settings" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mymeeting" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meetings" inverseName="myregion" inverseEntity="Meetings" syncable="YES"/>
+        <relationship name="mynews" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="News" inverseName="myregion" inverseEntity="News" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Meetings" positionX="324" positionY="-45" width="128" height="238"/>
+        <element name="News" positionX="-63" positionY="-18" width="128" height="298"/>
+        <element name="Settings" positionX="142" positionY="36" width="128" height="118"/>
+    </elements>
+</model>

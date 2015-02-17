@@ -128,7 +128,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ey2-px-7AZ" kind="push" id="waW-t8-sKa"/>
+                                            <segue destination="ey2-px-7AZ" kind="push" identifier="pushNews" id="waW-t8-sKa"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="w9c-Oa-X1s" style="IBUITableViewCellStyleDefault" id="0Yq-9P-ZVr">
@@ -148,7 +148,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ey2-px-7AZ" kind="push" id="KKX-Od-UvH"/>
+                                            <segue destination="ey2-px-7AZ" kind="push" identifier="pushMitn" id="KKX-Od-UvH"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="5GQ-sr-6i7" style="IBUITableViewCellStyleDefault" id="Vct-w2-RUa">
@@ -168,7 +168,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ey2-px-7AZ" kind="push" id="sQb-cS-QK3"/>
+                                            <segue destination="ey2-px-7AZ" kind="push" identifier="pushSet" id="sQb-cS-QK3"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="jO1-Xy-7z1" style="IBUITableViewCellStyleDefault" id="9mF-gI-YN1">
@@ -219,16 +219,16 @@
             </objects>
             <point key="canvasLocation" x="447" y="1926"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Scroll View Controller-->
         <scene sceneID="t7Q-pJ-3aw">
             <objects>
-                <tableViewController id="ey2-px-7AZ" sceneMemberID="viewController">
+                <tableViewController id="ey2-px-7AZ" customClass="NODScrollViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ILY-cS-U0m">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Mat-lR-kq8">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Mat-lR-kq8">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mat-lR-kq8" id="YDn-KF-zi4">
@@ -236,7 +236,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="kdh-07-L08" kind="push" id="ra2-Mb-sRk"/>
+                                    <segue destination="kdh-07-L08" kind="push" identifier="pushJSONSegue" id="ra2-Mb-sRk"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -251,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="887" y="1926"/>
         </scene>
-        <!--Scroll View Controller-->
+        <!--Detail Scroll View Controller-->
         <scene sceneID="orG-Sc-O9d">
             <objects>
-                <viewController id="kdh-07-L08" customClass="NODScrollViewController" sceneMemberID="viewController">
+                <viewController id="kdh-07-L08" customClass="NODDetailScrollViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tag-G5-rRU"/>
                         <viewControllerLayoutGuide type="bottom" id="tYF-e0-Gbb"/>
@@ -272,6 +272,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="TnY-Xa-7vE"/>
+                    <connections>
+                        <outlet property="webscrolldescription" destination="M6I-Qw-kbh" id="Gde-5d-0mH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q9I-79-mnh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -397,6 +400,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="waW-t8-sKa"/>
+        <segue reference="sQb-cS-QK3"/>
     </inferredMetricsTieBreakers>
 </document>

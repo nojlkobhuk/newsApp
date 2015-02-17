@@ -23,6 +23,7 @@
     
     NSMutableArray* elements = [json valueForKey:@"title"];
     //NSMutableArray* json_desc = [json valueForKey:@"desc"];
+    //[Settings addMynewsObject:<#(NSManagedObject *)#>]
     
     return elements;
 }

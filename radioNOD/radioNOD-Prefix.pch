@@ -13,4 +13,14 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
 #endif
+
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+//https://developer.marvel.com/documentation/authorization
+#define NOD_API_BASEPOINT @"http://rusnod.ru/"
+#define NOD_API_PATH_PATTERN @"rss/"
+#define NOD_API_CHARACTERS_PATH_PATTERN @"news.php"
+#define NOTIFICATION_MUST_SHOW_DETAILS @"MustShowDetail"

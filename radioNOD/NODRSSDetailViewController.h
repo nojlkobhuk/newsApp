@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "NODParseList.h"
+#import "News.h"
+#import "Settings.h"
 
 @interface NODRSSDetailViewController : UIViewController {
     IBOutlet UIWebView *webdescription;
@@ -17,5 +19,6 @@
     IBOutlet UILabel *gdescription;
 }
 @property (nonatomic, strong) NODParseList *detailList;
+@property (nonatomic, strong) News *newsList;
 
 @end
